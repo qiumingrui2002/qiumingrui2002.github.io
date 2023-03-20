@@ -27,13 +27,13 @@ if (window.localStorage.getItem("fpson") == undefined || window.localStorage.get
             if (fps <= 5) {
                 var kd = `<span style="color:#bd0000">这下寄了🤢</span>`
             } else if (fps <= 15) {
-                var kd = `<span style="color:red">玩原神玩的😫</span>`
+                var kd = `<span style="color:red">原神玩多了😫</span>`
             } else if (fps <= 25) {
-                var kd = `<span style="color:orange">有点难受😨</span>`
+                var kd = `<span style="color:orange">你先别急😨</span>`
             } else if (fps < 35) {
-                var kd = `<span style="color:#9338e6">你先别急🙄</span>`
+                var kd = `<span style="color:#9338e6">流畅原神🙄</span>`
             } else if (fps <= 45) {
-                var kd = `<span style="color:#08b7e4">流畅原神🥰</span>`
+                var kd = `<span style="color:#08b7e4">华为不卡🥰</span>`
             } else {
                 var kd = `<span style="color:#39c5bb">win!win!😅</span>`
             }
